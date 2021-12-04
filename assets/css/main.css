@@ -176,6 +176,11 @@ h6 {
   h2 {
     font-size: 1.5em; } }
 
+half {
+  width: 50%;
+  height: 50%;
+}
+
 sub {
   font-size: 0.8em;
   position: relative;
