@@ -38,14 +38,14 @@
 
 									<span class="image resize right"><img src="../images/multiple-inheritance.png" alt="" /></span>
 									<!-- <sup><a href="#footer">1</a></sup> -->
-									<p>P1</p>
-									<p>P2</p>
+									<p>Multiple Inheritance<sup><a href="#footer">1</a></sup> allows a class to inherit more than one class. Creating a hybrid class that can perform the functions of both base classes. When dealing with Multiple inheritance, one thing to keep in mind is the Diamond Problem.</p>
+									<p>When a class in c++ inherits from multiple parent classes and the parent classes inherit from one main base class. Specifically when using the methods or members of the main base class. Essentially, for each branch going up to the base class, the base class is getting instantiated. Which means when you get back down to the hybrid class, the hybrid class has 2 copies of the originally information and the ambiguous information confused the compiler and it throwxs an error. The way around the diamond problem is to have the intermediate classes inherit virtually, so only one instance of information is created for the two sides.</p>
 									
 									<hr class="major" />
 
 									<h4>Sources</h4>
 									<ol>
-										<li><a href="#">Source</a></li>
+										<li><a href="https://www.geeksforgeeks.org/multiple-inheritance-in-c/">Geeks for Geeks</a></li>
 									</ol>
 
 									<hr class="major" />
@@ -81,7 +81,7 @@
 										<span class="opener">OOP Terminology</span>
 										<ul>
 											<li><a href="abstraction.html">Abstraction</a></li>
-											<li><a href="#header"><b>Access Modifiers</b></a></li>
+											<li><a href="access-modifiers.html">Access Modifiers</a></li>
 											<li><a href="attributes.html">Attributes/Properties</a></li>
 											<li><a href="class.html">Class</a></li>
 											<li><a href="class-variable.html">Class Variables</a></li>
@@ -93,7 +93,7 @@
 											<li><a href="instance-variable.html">Instance Variable</a></li>
 											<li><a href="member-variable.html">Member Variable</a></li>
 											<li><a href="method.html">Method</a></li>
-											<li><a href="multiple-inheritance.html">Multiple Inheritance</a></li>
+											<li><a href="#header"><b>Multiple Inheritance</b></a></li>
 											<li><a href="object.html">Object</a></li>
 											<li><a href="overloading.html">Overloading</a></li>
 											<li><a href="polymorphism.html">Polymorphism</a></li>
